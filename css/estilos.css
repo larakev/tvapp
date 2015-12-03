@@ -1,0 +1,54 @@
+html {font-family: GillSans, Calibri, Trebuchet, sans-serif;}
+body{background-color: #EEEEEE;}
+nav{background-color: #212121;}
+aside{background-color: #2C3940;}
+.name p{
+	color: #fff;
+	text-align: 
+	center;font-size: 1.1em;
+	margin-top: 0px;
+}
+.nav-wrapper img{
+	width: 35px;
+	margin: 14px -40px 0px 60px;
+}
+.brand-logo{margin-left: 60px;}
+.logo input{
+	width: 20%;
+	float: right;
+	margin-right: 50px;	
+}
+.back{
+    width: 100%;
+    height: 300px;
+    background-color: #FFC107;
+    position: fixed;
+    z-index: -3;
+}
+.cards{
+	background-color: #757575;
+	width: 210px;
+	height: 340px;
+	margin: 27px;
+	display: inline-block;
+}
+	.cards:hover{
+		background-color: #424242;
+	}
+.preloader-wrapper{
+	margin: 4px 0px 0px 200px;
+}
+
+@media only screen and (max-width : 600px) {
+	.logo input{
+		visibility: hidden;
+	}
+	.logo img{
+		visibility: hidden;
+	}
+@media only screen and (max-width : 480px) {
+	.cards{
+		display: block;
+		margin: 20 auto;
+	}
+}
